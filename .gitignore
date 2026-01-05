@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Model files (DON'T push these - too large!)
+*.bin
+*.pth
+*.safetensors
+outputs/
+checkpoints/
+final_merged_model/
+final_lora_model/
+
+# Data files
+*.csv
+Fake.csv
+True.csv
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
