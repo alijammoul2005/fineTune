@@ -5,7 +5,7 @@ __pycache__/
 .Python
 venv/
 env/
-
+.env
 # Model files (DON'T push these - too large!)
 *.bin
 *.pth
